@@ -35,7 +35,6 @@ public class EmployeeBook {
             }
         }
     }
-
     // Средняя зарплата
     public double getAverageSalary() {
         double sum = 0;
@@ -50,7 +49,6 @@ public class EmployeeBook {
 
         return count == 0 ? 0 : sum / count;
     }
-
     // Расчёт налогов
     public void printTaxes(String type) {
         if (type == null) {
